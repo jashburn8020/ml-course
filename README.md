@@ -17,7 +17,9 @@
     - you will also need to install the following packages:
       - `jupyter`
       - `matplotlib`
+      - `pandas`
   - to install packages into a conda environment: `conda install [package [package ...]]`
+  - to remove packages: `conda remove [package [package ...]]`
 - Activate the new environment: `conda activate ml_course`
   - to deactivate the environment: `conda deactivate`
 - Install PyDotPlus: `conda install pydotplus`
@@ -31,6 +33,10 @@
 - Alternatively, you can view and run Jupyter Notebook files in VS Code; see
   - <https://code.visualstudio.com/docs/python/jupyter-support>
   - <https://code.visualstudio.com/docs/python/data-science-tutorial>
+
+## Introducing the Pandas Library
+
+- See [PandasTutorial.ipynb](MLCourse/PandasTutorial.ipynb)
 
 ## References
 
