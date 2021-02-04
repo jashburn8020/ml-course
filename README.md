@@ -19,6 +19,9 @@
       - `matplotlib`
       - `pandas`
       - `seaborn`
+      - `scikit-learn`
+      - `xlrd`
+      - `statsmodels`
   - to install packages into a conda environment: `conda install [package [package ...]]`
   - to remove packages: `conda remove [package [package ...]]`
 - Activate the new environment: `conda activate ml_course`
@@ -98,6 +101,206 @@
 ### Bayes' Theorem
 
 - See [MLCourseSlides.pdf](MLCourseSlides.pdf), slides 52-54
+
+## Predictive Models
+
+### Linear Regression
+
+- See
+  - [MLCourseSlides.pdf](MLCourseSlides.pdf), slides 56-62
+  - [LinearRegression.ipynb](MLCourse/LinearRegression.ipynb)
+
+### Polynomial Regression
+
+- See
+  - [MLCourseSlides.pdf](MLCourseSlides.pdf), slides 65-67
+  - [PolynomialRegression.ipynb](MLCourse/PolynomialRegression.ipynb)
+
+### Multiple Regression
+
+- See
+  - [MLCourseSlides.pdf](MLCourseSlides.pdf), slides 69-70
+  - [MultipleRegression.ipynb](MLCourse/MultipleRegression.ipynb)
+
+### Multi-Level Models
+
+- See [MLCourseSlides.pdf](MLCourseSlides.pdf), slides 73-75
+
+## Machine Learning with Python
+
+### Supervised vs. Unsupervised Learning, and Train/Test
+
+### Using Train/Test to Prevent Overfitting a Polynomial Regression
+
+### Bayesian Methods: Concepts
+
+### Implementing a Spam Classifier with Naive Bayes
+
+### K-Means Clustering
+
+### Clustering people based on income and age
+
+### Measuring Entropy
+
+### WINDOWS: Installing Graphviz
+
+### MAC: Installing Graphviz
+
+### LINUX: Installing Graphviz
+
+### Decision Trees: Concepts
+
+### Decision Trees: Predicting Hiring Decisions
+
+### Ensemble Learning
+
+### XGBoost
+
+### Support Vector Machines (SVM) Overview
+
+### Using SVM to cluster people using scikit-learn
+
+## Recommender Systems
+
+### User-Based Collaborative Filtering
+
+### Item-Based Collaborative Filtering
+
+### Finding Movie Similarities using Cosine Similarity
+
+### Improving the Results of Movie Similarities
+
+### Making Movie Recommendations with Item-Based Collaborative Filtering
+
+### Improve the recommender's results
+
+## More Data Mining and Machine Learning Techniques
+
+### K-Nearest-Neighbors: Concepts
+
+### Using KNN to predict a rating for a movie
+
+### Dimensionality Reduction; Principal Component Analysis (PCA)
+
+### PCA Example with the Iris data set
+
+### Data Warehousing Overview: ETL and ELT
+
+### Reinforcement Learning
+
+### Reinforcement Learning & Q-Learning with Gym
+
+### Understanding a Confusion Matrix
+
+### Measuring Classifiers (Precision, Recall, F1, ROC, AUC)
+
+## Dealing with Real-World Data
+
+### Bias/Variance Tradeoff
+
+### K-Fold Cross-Validation to avoid overfitting
+
+### Data Cleaning and Normalization
+
+### Cleaning web log data
+
+### Normalizing numerical data
+
+### Detecting outliers
+
+### Feature Engineering and the Curse of Dimensionality
+
+### Imputation Techniques for Missing Data
+
+### Handling Unbalanced Data: Oversampling, Undersampling, and SMOTE
+
+### Binning, Transforming, Encoding, Scaling, and Shuffling
+
+## Apache Spark: Machine Learning on Big Data
+
+### Warning about Java 11 and Spark 3!
+
+### Spark installation notes for MacOS and Linux users
+
+### Installing Spark - Part 1
+
+### Installing Spark - Part 2
+
+### Spark Introduction
+
+### Spark and the Resilient Distributed Dataset (RDD)
+
+### Introducing MLLib
+
+### Introduction to Decision Trees in Spark
+
+### K-Means Clustering in Spark
+
+### TF / IDF
+
+### Searching Wikipedia with Spark
+
+### Using the Spark 2.0 DataFrame API for MLLib
+
+## Experimental Design / ML in the Real World
+
+### Deploying Models to Real-Time Systems
+
+### A/B Testing Concepts
+
+### T-Tests and P-Values
+
+### Hands-on With T-Tests
+
+### Determining How Long to Run an Experiment
+
+### A/B Test Gotchas
+
+## Deep Learning and Neural Networks
+
+### Deep Learning Pre-Requisites
+
+### The History of Artificial Neural Networks
+
+### Deep Learning in the Tensorflow Playground
+
+### Deep Learning Details
+
+### Introducing Tensorflow
+
+### Important note about Tensorflow 2
+
+### Using Tensorflow, Part 1
+
+### Using Tensorflow, Part 2
+
+### Introducing Keras
+
+### Using Keras to Predict Political Affiliations
+
+### Convolutional Neural Networks (CNN's)
+
+### Using CNN's for handwriting recognition
+
+### Recurrent Neural Networks (RNN's)
+
+### Using a RNN for sentiment analysis
+
+### Transfer Learning
+
+### Tuning Neural Networks: Learning Rate and Batch Size Hyperparameters
+
+### Deep Learning Regularization with Dropout and Early Stopping
+
+### The Ethics of Deep Learning
+
+### Learning More about Deep Learning
+
+## Final Project
+
+### Your final project assignment: Mammogram Classification
+
+### Final project review
 
 ## References
 
